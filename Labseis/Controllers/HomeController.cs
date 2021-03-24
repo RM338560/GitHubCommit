@@ -26,5 +26,12 @@ namespace Labseis.Controllers
 
             return View();
         }
+
+        public ActionResult FAQ()
+        {
+            ViewBag.Message = "Your Frequently Asked Questions page.";
+
+            return View();
+        }
     }
 }
